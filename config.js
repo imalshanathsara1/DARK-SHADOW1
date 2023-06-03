@@ -10,27 +10,27 @@ global.antitags = true
 //global.autoTyping = false //auto tying in gc (true to on, false to off)
 //global.autoRecord = true //auto recording (true to on, false to off)
 
-global.Owner = ['916297175943','919362639362']  //If you want singal number so global.Owner = ['916297175943'] Change into your number
-global.OwnerNumber = ['916297175943','919362639362']  //If you want singal number so global.Owner = ['916297175943'] Change into your number
+global.Owner = ['94740196225','94718628230']  //If you want singal number so global.Owner = ['94740196225'] Change into your number
+global.OwnerNumber = ['94740196225','94718628230']  //If you want singal number so global.Owner = ['94740196225'] Change into your number
 global.ownertag = ['916297175943']
-global.BotName = "A17"
-global.packname = "A17 bot"
-global.author = "By: Kai"
-global.OwnerName = "Kai"
-global.BotSourceCode = "https://github.com/Kai0071/A17"
-global.SupportGroupLink = "https://chat.whatsapp.com/EsNqFrGKxGXFrdwgRaQl9q"
+global.BotName = "DARK SHADOW"
+global.packname = "DARK SHADOW"
+global.author = "By: IMALSHA"
+global.OwnerName = "IMALSHA"
+global.BotSourceCode = "https://github.com/imalshanathsara1/DARK-SHADOW"
+global.SupportGroupLink = ""
 global.sessionName = "session"
 
 // Prefix //
 // If you want to change the prefix, change it and also change all switch's button id from Core.js  otherwise buttons will not work //
-global.prefa = ['-'] 
+global.prefa = ['.'] 
 
 
-global.location = "West Bengal, India"
+global.location = "Nikawaratiya,Srilanka"
 global.reactmoji = "❤️"
 global.themeemoji = "💖"
 global.vidmenu = { url: 'https://media.tenor.com/Jdu0Ov8X2sIAAAAC/A17-Bot.mp4' }
-global.websitex = "https://github.com/Kai0071"
+global.websitex = "https://github.com/imalshanathsara1/DARK-SHADOW"
 global.lolhuman = "KaysaS"
 
 

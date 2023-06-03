@@ -1,7 +1,7 @@
 {
-  "name": "A17-Bot",
+  "name": "DARK-SHADOW-Bot",
   "description": "A whatsApp bot based on Baileys linrary with Multi Device support",
-  "repository": "https://github.com/Kai0071/A17-Bot",
+  "repository": "https://github.com/imalshanathsara1/DARK-SHADOW",
   "logo": "https://wallpapercave.com/wp/wp10524580.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [

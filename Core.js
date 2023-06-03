@@ -1588,7 +1588,7 @@ switch(command) {
     if (isBanChat) return reply(mess.bangc)
     A17.sendMessage(from, { react: { text: "❤" , key: m.key }})
     let { data } = await axios.get('https://api.github.com/repos/Kai0071/A17');
-    teks = `*A17 Script*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: https://github.com/Kai0071/A17\n\nDont forget to follow me on *GitHub* and give a ⭐️ to my projects. `
+    teks = `*A17 Script*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*:https://github.com/imalshanathsara1/DARK-SHADOW\n\nDont forget to follow me on *GitHub* and give a ⭐️ to my projects. `
     let buttons = [
     {buttonId: `${prefix}owner`, buttonText: {displayText: '🍁 DEVELOPER 🍁'}, type: 1}
     ]
@@ -4316,7 +4316,7 @@ case 'music': case 'p': case 'play': case 'song': case 'ytplay': {
  ]
  let buttonMessage = {
  image: { url: anu.thumbnail },
- caption: `「  A17 Youtube Player 2.0  」
+ caption: `「  DARK SHADOW Youtube Player   」
 
 ✨ *Title :* ${anu.title}
 
@@ -4330,7 +4330,7 @@ case 'music': case 'p': case 'play': case 'song': case 'ytplay': {
 
 🔗 *Url :* ${anu.url}`,
 	 
- footer: `${global.BotName}`,
+ footer: `DARK SHADOW`,
  buttons: buttons,
  headerType: 4,
 
@@ -4378,7 +4378,7 @@ case 'music': case 'p': case 'play': case 'song': case 'ytplay': {
  ]
  let buttonMessage = {
  image: { url: anu.thumbnail },
- caption: `「  A17 Youtube Downloader 2.0  」
+ caption: `「 DARK SHADOW Youtube Downloader 」
 
 ✨ *Title :* ${anu.title}
 
@@ -4387,7 +4387,7 @@ case 'music': case 'p': case 'play': case 'song': case 'ytplay': {
 📍 *Uploaded :* ${anu.ago}
 🎐 *Channel :* ${anu.author.name}
 🔗 *Url :* ${anu.url}`,
- footer: `${global.BotName}`,
+ footer: `DARK SHADOW`,
  buttons: buttons,
  headerType: 4,
 
@@ -5730,11 +5730,11 @@ break
 case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
-A17.sendMessage(from, { react: { text: "✨" , key: m.key }})      
+A17.sendMessage(from, { react: { text: "📚" , key: m.key }})      
 const helpmenu = `Hemlo *${pushname}* Dear...!! ${ucapanWaktu} ,
 
 │───────────────────────│
-┠⬡│▸ ${pushname} I am *A17*, a Bot Developed by *Kai*.
+┠⬡│▸ ${pushname} I am *DARK SHADOW*, a Bot Developed by *IMALSHA*.
 │───────────────────────│
 │╭────────────────···▸
 ┠─────═[ *TODAY* ]═────
@@ -5762,8 +5762,6 @@ const helpmenu = `Hemlo *${pushname}* Dear...!! ${ucapanWaktu} ,
 │╰────────────────···▸
 ┠─━━〈 ⚙️ *Core* ⚙️ 〉━━
 │╭────────────────···▸
-┴│▸ 
-⬡│▸ speak, A17, stalk
 ⬡│▸ profile, delete
 ⬡│▸ deleteall, listgc, listpc
 ⬡│▸ welcome, support
@@ -5932,8 +5930,8 @@ const helpmenu = `Hemlo *${pushname}* Dear...!! ${ucapanWaktu} ,
 ⬡│▸ 🍁 Then type " *${prefix}nsfwmenu* " for all NSFW commands.
 ⬡│▸
 ⬡│▸
-⬡│▸ 『  *${global.BotName}*  』
-⬡│▸    Developed By: *Kai*
+⬡│▸ 『  *DARK SHADOW*  』
+⬡│▸    Developed By: *IMALSHA*
 ⬡│▸
 ⬡│▸ 🌹 To use any of these commands type 
 ⬡│▸ " *${prefix}<Command name>* ".

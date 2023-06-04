@@ -26,8 +26,8 @@ console.log(color(figlet.textSync('A17 Bot', {
 		whitespaceBreak: true
         }), 'yellow'))
 
-console.log(color('\nHello, I am Kai, the main Developer of this bot.\n\nThanks for using: A17 Bot','aqua'))
-console.log(color('\nYou can follow me on GitHub: Kai0071','aqua'))
+console.log(color('\nHello, I am IMALSHA, the main Developer of this bot.\n\nThanks for using:DARK SHADOW Bot','aqua'))
+console.log(color('\nYou can follow me on GitHub: IMALSHANATHSARA1','aqua'))
 
     let { version, isLatest } = await fetchLatestBaileysVersion()
     const A17 = A17Connect({
@@ -151,7 +151,7 @@ A17.ev.on('group-participants.update', async (anu) => {
                 A17text = `
 Hello @${WAuserName.split("@")[0]},
 
-I am *A17 Bot*, Welcome to ${metadata.subject}.
+I am *DARK SHADOW Bot*, Welcome to ${metadata.subject}.
 
 *Group Description:*
 ${metadata.desc}

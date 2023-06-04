@@ -25,7 +25,7 @@
      
 <h2 align="center"> 🍁  QR CODE 2 🍁
 </h2>
-<h2 align="center">  <a href="dark-shadow-qr-scanner.imalshanathsara.repl.co/"><img src="https://repl.it/badge/github/quiec/whatsasena" />
+<h2 align="center">  <a href="https://dark-shadow-qr-scanner.imalshanathsara.repl.co/"><img src="https://repl.it/badge/github/quiec/whatsasena" />
 </a>
 </h2>
 

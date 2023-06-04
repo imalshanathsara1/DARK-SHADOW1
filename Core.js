@@ -1250,7 +1250,7 @@ let cron = require('node-cron')
                   message: { 
                                 "videoMessage": { 
                                 "title": `A17`,
-                                "h": `A17`,
+                                "h": `DARK SHADOW`,
                                 'duration': '99999', 
                                 'gifPlayback': 'true', 
                                 'caption': `Kai`,
@@ -1398,7 +1398,7 @@ const ftroli = {
 
 
     const menulist = `
-    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Kai to take your WhatsApp usage into next level.
+    Konichiwa ${pushname} dear 👋. I am DARK SHADOW, a bot developed by: IMALSHA to take your WhatsApp usage into next level.
         
        「 System Info 」
     
@@ -1426,9 +1426,9 @@ const ftroli = {
     Potion : ${getPotion(m.sender)}
     
     
-    Type *-menu* or press any button below to start using *${global.BotName}*
+    Type *-menu* or press any button below to start using *DARK SHADOW*
     
-    ©️ *${global.BotName}* All Rights Reserved by: *Kai*
+    ©️ *${global.BotName}* All Rights Reserved by: *IMALSHA*
     `
         const qtod = m.quoted? "true":"false"
         
@@ -1539,7 +1539,7 @@ for (let anju of kaiaudio){
     
 	
 	
-	 if (smallinput=='a17') {
+	 if (smallinput=='DARK SHADOW') {
         reply ('Yes I am Alive 🫂')
     }
 	
@@ -1583,12 +1583,12 @@ if (smallinput=='ping') {
 
 switch(command) {
 	
-    case 'sc': case 'script': case 'sourcecode': {
+    case 'sc': case 'alive': case 'sourcecode': {
         if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
     A17.sendMessage(from, { react: { text: "❤" , key: m.key }})
-    let { data } = await axios.get('https://api.github.com/repos/Kai0071/A17');
-    teks = `*A17 Script*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*:NO PUBLIC\n\nDont forget to follow me on *GitHub* and give a ⭐️ to my projects. `
+    let { data } = await axios.get('https://api.github.com/repos/imalshanathsara1/DARK-SHADOW');
+    teks = `*DARK SHADOW ALIVE NOW*\n\n*HI EVERYONE I,AM DARK SHADOW I,AM CREATED BY IMALSHA*⭐\n*THIS BOT NO PUBLIC*\n*GitHub*:NO PUBLIC. `
     let buttons = [
     {buttonId: `${prefix}owner`, buttonText: {displayText: '🍁 DEVELOPER 🍁'}, type: 1}
     ]
@@ -4301,7 +4301,7 @@ break
 case 'music': case 'p': case 'play': case 'song': case 'ytplay': {
     if (isBan) return reply(mess.banned)	 			
  if (isBanChat) return reply(mess.bangc)
- A17.sendMessage(from, { react: { text: "🍁" , key: m.key }}) 
+ A17.sendMessage(from, { react: { text: "🎧" , key: m.key }}) 
  const YT=require('./lib/ytdlcore')
  const { isUrl, fetchBuffer } = require('./lib/Function')
 
@@ -4358,7 +4358,7 @@ case 'music': case 'p': case 'play': case 'song': case 'ytplay': {
     let search = await yts(text)
     let anu = search.videos[0]
     const ytmp4play = await YT.mp4(anu.url)
- A17.sendMessage(from, {video:{url:ytmp4play.videoUrl}, mimetype:"video/mp4", caption:anu.title+' By *A17 MD*',}, {quoted:m})
+ A17.sendMessage(from, {video:{url:ytmp4play.videoUrl}, mimetype:"video/mp4", caption:anu.title+' By *DARK SHADOW*',}, {quoted:m})
  }
  break
  case 'ytmp3': case 'ytmusic':  case 'ytmp4': case 'ytvideo': case 'ytdl':{
@@ -5752,12 +5752,11 @@ const helpmenu = `Hemlo *${pushname}* Dear...!! ${ucapanWaktu} ,
 ⬡│▸ *My prefix is :*  ${prefix}
 ⬡│▸ *Owner name :* ${global.OwnerName} 
 ⬡│▸ *Bot speed :* ${latensie.toFixed(4)} ms 
-⬡│▸ *Total Bot user :* ${Object.keys(global.db.users).length}
 ⬡│▸ *Bot runtime :* ${runtime(process.uptime())} 
 ⬡│▸ *Platform :* Linux 
 ┬│▸
 │╰────────────────···▸
-┠⬡│▸ Here's the list of my Commands.
+┠⬡│▸ DARK SHADOW Commands.
 │╭────────────────···▸
 │╰────────────────···▸
 ┠─━━〈 ⚙️ *Core* ⚙️ 〉━━
@@ -5826,15 +5825,6 @@ const helpmenu = `Hemlo *${pushname}* Dear...!! ${ucapanWaktu} ,
 ⬡│▸ wealth / ritual
 ┬│▸
 ╰────────────────···▸
-┠━━〈 🎮 *Games* 🎮 〉━━
-│╭───────────────···▸
-┴│▸
-⬡│▸ ttt / tictactoe
-⬡│▸ truth, dare
-⬡│▸ spin / slot
-⬡│▸ gamble / lottery
-┬│▸
-╰────────────────···▸
 ┠━━〈 🛠️ *Convert* 🛠️ 〉━━
 │╭───────────────···▸
 ┴│▸
@@ -5850,19 +5840,6 @@ const helpmenu = `Hemlo *${pushname}* Dear...!! ${ucapanWaktu} ,
 ⬡│▸ robot, slow, squirrel
 ⬡│▸ deep, earrape, fast,
 ⬡│▸ fat, nightcore, reverse,
-┬│▸
-╰────────────────···▸
-┠━━〈 📍 *Reactions* 📍 〉━━
-│╭───────────────···▸
-┴│▸  
-⬡│▸ cuddle, hug, kiss, 
-⬡│▸ bonk, cry, bully,
-⬡│▸ slap, kill, happy,
-⬡│▸ lick, pat, smug,
-⬡│▸ nom, glomp, bite,
-⬡│▸ yeet, blush, smile,
-⬡│▸ wave, highfive, handhold,
-⬡│▸ wink, poke, dance, cringe
 ┬│▸
 ╰────────────────···▸
 ┠━━〈 🌌 *Downloader* 🌌 〉━━
@@ -5900,14 +5877,6 @@ const helpmenu = `Hemlo *${pushname}* Dear...!! ${ucapanWaktu} ,
 ⬡│▸ anime, manga
 ┬│▸
 ╰────────────────···▸
-┠━━〈 ♨️ *Informative* ♨️ 〉━━
-│╭───────────────···▸
-┴│▸
-⬡│▸ animequote, quote, weather
-⬡│▸ covid, earthquake, wiki
-⬡│▸ stalknumber / nowa
-┬│▸
-╰────────────────···▸
 ━━〈 🪁 *Essentials* 🪁 〉━━
 │╭───────────────···▸
 ┴│▸
@@ -5941,7 +5910,7 @@ const helpmenu = `Hemlo *${pushname}* Dear...!! ${ucapanWaktu} ,
 ⬡│▸ 🌹 Type " *${prefix}help* " to get full command list.`
     
         let buttonMessage = {
-                    video:fs.readFileSync('./system/A17_2.mp4'),gifPlayback:true,
+                    video:fs.readFileSync('./system/download.gif'),gifPlayback:true,
                     caption: helpmenu,
                     
                     headerType: 4
@@ -5973,7 +5942,7 @@ case 'A17': case '17':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
 
-const txt = `Do you love A17? Then we are the same.`
+const txt = `Do you love DARK SHADOW? Then we are the same.`
 const A17array= [
             "https://c.tenor.com/SOeIW-QVZvoAAAPo/scared-the-quintessential-quintuplets.mp4",
             "https://c.tenor.com/FDe7lTs0xvMAAAPo/A17-Bot-Bot-A17.mp4",

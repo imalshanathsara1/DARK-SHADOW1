@@ -12,7 +12,7 @@
      
 <h2 align="center"> 🍁  Run Repl for Qr  🍁
 </h2>
-<h2 align="center">  <a href="https://replit.com/@Broken0007/A17-QR-Scanner?v=1"><img src="https://repl.it/badge/github/quiec/whatsasena" />
+<h2 align="center">  <a href="https://replit.com/@imalshanathsara/DARK-SHADOW-QR-Scanner?v=1"><img src="https://repl.it/badge/github/quiec/whatsasena" />
 </a>
 </h2>
 

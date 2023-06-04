@@ -1,6 +1,6 @@
 <p align="center">
    <a href="https://github.com/imalshanathsara1/DARK-SHADOW">
-    <img src="https://i.ibb.co/72fThLG/download.jpg" width="610">
+    <img src="https://i.ibb.co/kSy3FGp/download.gif" width="610">
      
 <p align="center"> 
   Hemlo, I am "IMALSHA" a WhatsApp bot create and recode by Kai to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.

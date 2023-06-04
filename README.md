@@ -49,7 +49,7 @@
 </h2>
 
 <p align="center" >
-    <a href="https://heroku.com/deploy?template=https://github.com/Kai0071/A17">
+    <a href="https://heroku.com/deploy?template=https://github.com/imalshanathsara1/DARK-SHADOW">
     <img src="https://www.herokucdn.com/deploy/button.png" width="160px" alt="Deploy on Heroku" >
     </a>
 </p>
